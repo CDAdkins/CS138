@@ -1,4 +1,3 @@
-#! /usr/bin/python
 # Exercise No.   3
 # File Name:     hw3project3.py
 # Programmer:    Chris Adkins
