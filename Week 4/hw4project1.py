@@ -6,12 +6,17 @@
 # Problem Statement: This program is an edited version of the one found in the book.
 #
 # Overall Plan:
-# 1. Change the shape from Circle() to Rectangle()
-# 2. change the shape.move() method to a shape = in order to make more squares appear.
-# 3. After the for loop, create a new text object before another getMouse() call.
+# 1. Get the initial two clicks from the user.
+# 2. Create two points and use the points to draw the rectangle.
+# 3. Find the width of the first rectangle by subtracting the two x points.
+# 4. Divide the width by 5 to get the width of the door.
+# 5. Use the width of the door and the last click from the user to draw the door rectangle.
+# 6. Use the width of the door / 4 and the next mouse click to place the window.
+# 7. Take the next click, the height and base of the initial rectangle and create a polygon for the roof.
 #
 # Import the necessary python libraries
 # graphics.py
+# math
 
 from graphics import *
 from math import sqrt
