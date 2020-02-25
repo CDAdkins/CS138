@@ -18,7 +18,7 @@
 # graphics.py
 # math
 
-from graphics import *
+from graphics import GraphWin, Point, Rectangle, color_rgb, Polygon
 from math import sqrt
 
 
